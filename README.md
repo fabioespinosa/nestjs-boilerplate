@@ -1,4 +1,4 @@
-Opinionated NestJS Boilerplate.
+# Opinionated NestJS Boilerplate.
 
 After making my mind up of what is my ideal setup for NestJS I created this opinionated starter.
 
@@ -30,11 +30,13 @@ Make sure to have postgres running in port 5432 and run: `yarn start:dev`
 
 # Tests
 
-//TODO DOC
+Right now there are both Unit tests and End to end tests
 
 # Unit testing
 
-//TODO DOC
+You can run unit tests with:
+
+`yarn run test`
 
 # End to End Testing
 
@@ -42,4 +44,4 @@ Running e2e test requires creating a database named 'notes_test' first (check .e
 
 afterwards run:
 
-yarn run test:e2e
+`yarn run test:e2e`
