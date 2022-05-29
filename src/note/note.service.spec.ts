@@ -1,7 +1,6 @@
 import { Test, TestingModule } from '@nestjs/testing';
 import { NoteService } from './note.service';
-import { NoteRepositoryTORM } from './note.repository';
-import { NoteRepository } from '../../dist/note/note.repository';
+import { NoteRepositoryTORM, NoteRepository } from './note.repository';
 import { NoteStatus } from './note-status.enum';
 import { NotFoundException } from '@nestjs/common';
 
