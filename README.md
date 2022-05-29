@@ -18,7 +18,7 @@ With docker-compose:
 
 Note: postgres is running on port 5433
 
-with end 2 end testing: docker-compose -f docker-compose.end-to-end.yamlup
+Checkout localhost:3000/api to see every endpoint of the app along documentation
 
 With skaffold:
 
@@ -42,6 +42,13 @@ You can run unit tests with:
 
 Running e2e test requires creating a database named 'notes_test' first (check .env.test file)
 
-afterwards run:
+You can either run :
 
-`yarn run test:e2e`
+`yarn run test:e2e // If you have postgres running locally`
+
+Or you can run:
+`docker-compose -f docker-compose.end-to-end.yaml up`
+
+# Rationale:
+
+TODO
